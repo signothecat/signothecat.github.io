@@ -1,4 +1,4 @@
-# My Portfolio
+# ポートフォリオ (WIP)
 
 - [Tech Stack](#tech-stack)
 - [Deliverables](#deliverables)
