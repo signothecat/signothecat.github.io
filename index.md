@@ -17,7 +17,7 @@
 
 ## 制作物
 - aozora-static-demo
- - 青空文庫リーダー
+  - 青空文庫リーダー
 - accessible-color-picker
   - 前景・背景色の組み合わせ生成器(可読性チェック機能付き)
 - color-palette-generator
