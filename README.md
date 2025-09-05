@@ -1,6 +1,9 @@
 # My Portfolio
 
-## 技術スタック
+- [Tech Stack](#tech-stack)
+- [Deliverables](#deliverables)
+
+## Tech Stack
 - Web制作
   - HTML / CSS
   - JavaScript
@@ -10,18 +13,17 @@
   - Node.js
 - その他
   - zsh / Shell Script
-    - Shell Scriptプログラムの制作
-    - コマンドラインツールの操作
   - C++
     - Arduino・Qtによる組み込みソフトウェアの制作
 
-## 制作物
+## Deliverables
 - aozora-static-demo
   - 青空文庫リーダー
 - accessible-color-picker
   - 前景・背景色の組み合わせ生成器(可読性チェック機能付き)
 - color-palette-generator
   - カラーパレット生成器
-- WordPressの架空クライアント向けテンプレート
 - zsh-snake
   - https://github.com/signothecat/zshsnake
+- forest-coffee
+  - WordPressの架空クライアント向けテンプレート
