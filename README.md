@@ -69,4 +69,4 @@
 - 使用している技術スタック
   - zsh、Shell Script、Git
 - リポジトリ
-  - [z snake](https://github.com/signothecat/zsnake)（動作の様子も上記のリポジトリでご確認いただけます）
+  - [z snake](https://github.com/signothecat/zsnake)（動作の様子もリポジトリでご確認いただけます）
