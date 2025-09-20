@@ -5,7 +5,6 @@
 以下のスキルを習得しています。下にポートフォリオも掲載しています。
 - HTML/CSS
 - JavaScript
-- TypeScript
 - Git
 
 ### その他のスキル
