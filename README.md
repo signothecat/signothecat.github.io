@@ -56,6 +56,7 @@
   - 横書き/縦書き切替機能、ライト/ダークモード切替機能、余白調整機能などを実装しています。
 - デモ
   - [https://aozora-reader-phi.vercel.app/](https://aozora-reader-phi.vercel.app/)
+  - 注) 余白調整機能は作業中のため、まだ実装されていません
 - リポジトリ
   - [https://github.com/signothecat/aozora-reader](https://github.com/signothecat/aozora-reader)
 - 工夫した・苦労した点
