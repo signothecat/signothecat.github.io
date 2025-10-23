@@ -5,9 +5,9 @@
 |Next.js|アプリ開発（後述）で利用|
 |React|同上|
 |React Native|同上|
-|HTML/CSS|同上|
 |JavaScript|同上|
 |TypeScript|同上|
+|HTML/CSS|同上|
 |Git|同上|
 |Shell Script|ゲーム開発（後述）で利用|
 |WordPress|少し触れたことがある程度|
