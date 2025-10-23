@@ -31,6 +31,7 @@
   - チャンネルを追加し、ログを送信できます。
 - デモ
   - [https://sloggist.vercel.app/](https://sloggist.vercel.app/)
+  - （初回訪問時はロードに時間がかかります）
 - リポジトリ
   - [https://github.com/signothecat/sloggist](https://github.com/signothecat/sloggist)
 - 工夫した・苦労した点
