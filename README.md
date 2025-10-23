@@ -1,12 +1,14 @@
-# スキル・ポートフォリオについて
+# スキル・ポートフォリオ
 
 ## スキル
 現在、以下のスキルを習得・学習しています。下にポートフォリオも掲載しています。
-- HTML/CSS：アプリ開発で利用
-- JavaScript：アプリ開発で利用
-- TypeScript：アプリ開発（後述）で利用
-- React Native：アプリ開発（後述）で利用
-- Git：アプリ開発（後述）で利用
+- Next.js：アプリ開発（後述）で利用
+- React：同上
+- React Native：同上
+- HTML/CSS：同上
+- JavaScript：同上
+- TypeScript：同上
+- Git：同上
 - Shell Script：ゲーム開発（後述）で利用
 - WordPress：少し触れたことがある程度
 
@@ -19,20 +21,25 @@
 以下は、開発スキルの学習・実践のために制作したアプリやツールです。  
 主にWebアプリケーションやモバイルアプリを中心に、開発に取り組んできました。
 
-### Color2Go/文字色と背景色を生成するツール
+### sloggist
+- 開発時期
+  - 2025/10〜（開発中）
 - 使用している技術スタック
-  - HTML/CSS、JavaScript、Git、Vercel
+  - Next.js、React、JavaScript、HTML/CSS、Git、Prisma、Neon
 - 概要
-  - 背景色と文字色の組み合わせを作成し、可読性もチェックすることができる、ブラウザで動作するデザイン支援ツールです。
+  - Slackのようなログ管理アプリです。
+  - チャンネルを追加し、ログを送信できます。
 - デモ
-  - [https://color2go.vercel.app/](https://color2go.vercel.app/)
+  - [https://sloggist.vercel.app/](https://sloggist.vercel.app/)
 - リポジトリ
-  - [https://github.com/signothecat/color2go](https://github.com/signothecat/color2go)
+  - [https://github.com/signothecat/sloggist](https://github.com/signothecat/sloggist)
 - 工夫した・苦労した点
-  - URLにカラーコードが反映されるようにし、色の組み合わせを保存・共有することができるようになっています。
-  - レスポンシブ対応しています。
+  - ログ送信時に、楽観更新しながらバックグラウンドで送信順にデータベースに登録することで、UXを高める工夫をしました。
+  - 最適なディレクトリ構成を考えるのが大変でした。
 
 ### 本の記録アプリ
+- 開発時期
+  - 2025/7〜8（開発を一時停止中）
 - 使用している技術スタック
   - React Native、Expo、TypeScript、HTML/CSS、Git、npm、Node.js
 - 概要
@@ -48,6 +55,23 @@
   - 本棚画面にて、ローディング／エラー時も直前の一覧を保持することで再描画を最小化し、ちらつきを防止しました。
   - FlatListでuseCallbackを使用して描画関数をメモ化し、一覧スクロールのパフォーマンスを向上させました。
 
+### Color2Go/文字色と背景色を生成するツール
+- 開発時期
+  - 2025/8
+- 使用している技術スタック
+  - HTML/CSS、JavaScript、Git、Vercel
+- 概要
+  - 背景色と文字色の組み合わせを作成し、可読性もチェックすることができる、ブラウザで動作するデザイン支援ツールです。
+- デモ
+  - [https://color2go.vercel.app/](https://color2go.vercel.app/)
+- リポジトリ
+  - [https://github.com/signothecat/color2go](https://github.com/signothecat/color2go)
+- 工夫した・苦労した点
+  - URLにカラーコードが反映されるようにし、色の組み合わせを保存・共有することができるようになっています。
+  - レスポンシブ対応しています。
+- 今後の展開余地
+  - Next.js化してみたいと考えています。
+
 ### 青空文庫リーダー/aozora-reader
 - 使用している技術スタック
   - HTML、CSS、JavaScript、Git、Vercel
@@ -61,6 +85,8 @@
   - [https://github.com/signothecat/aozora-reader](https://github.com/signothecat/aozora-reader)
 - 工夫した・苦労した点
   - 表示形式を共通して整えるために、本文ファイルを`.md`形式で管理し、`md-to-html.js`でパース、`novel-loader.js`で取得・表示するという仕組みを実装しました。
+- 今後の展開余地
+  - Next.js化してみたいと考えています。
 
 ### forest-coffee
 - 概要
@@ -79,3 +105,7 @@
   - zsh、Shell Script、Git
 - リポジトリ
   - [z snake](https://github.com/signothecat/zsnake)（動作の様子もリポジトリでご確認いただけます）
+- 今後の展開余地
+  - UIの充実化
+  - ハイスコア機能の実装
+  - オンラインランキングの実装
